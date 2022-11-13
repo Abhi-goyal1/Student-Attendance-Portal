@@ -1,0 +1,136 @@
+*{
+    margin-top: 3px;
+    padding: 0%;
+    background:rgb(255, 255, 255);
+    
+    
+}
+#logo{
+    max-width:12%;
+}
+nav a {
+    display: flex;
+    text-decoration: none;
+    padding: 19px;
+    float: right;
+    
+
+}
+button{
+    display: flex;
+    float: right;
+    border: 0ch;
+    
+    
+}
+.first{
+    position:sticky;
+    
+    box-shadow: 0px 26px 17px -10px rgba(0,0,0,0.27);
+    
+}
+.first a{
+    font-family: 'Nunito', sans-serif;
+    color:rgb(56, 90, 100);
+    font-weight: bold;
+}
+
+/* icons css  */
+
+i{
+    color: rgb(56, 90, 100);
+    
+}
+.first a:hover{
+    color:rgb(255, 115, 92) ;
+}
+
+
+/* buttons  */
+
+#register{
+    background-color:rgb(255, 115, 92);
+    /* opacity: 0.7; */
+    margin-top: 13px;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size:17px;
+    padding: 13px ;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#register:hover{
+    
+
+}
+#signin{
+    border: 2px solid rgb(56, 90, 100) ;
+    margin-top: 13px;
+    border-radius: 6px;
+    margin-right: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-size:17px;
+    padding: 11px ;
+    color: rgb(56, 90, 100);
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+#signin:hover{
+    background-color: rgb(56, 90, 100);
+    color: white;
+}
+/* body image */
+
+section img{
+    height:50%;
+    width:40%;
+    float:right;
+    display: inline;
+    margin-top: -29%;
+    margin-right:80px;
+}
+
+
+ section .content{
+    margin-top:13%;
+    font-family: 'Nunito', sans-serif;
+    font-size:33px;
+    font-weight:900px;
+    margin-left: 25px;
+    color:rgb(56, 90, 100);
+    
+    
+
+}
+
+section .content #firsthr {
+    border:3px solid rgb(255, 115, 92);
+    border-radius: 4px;
+    background-color: rgb(255, 115, 92);
+    width:200px;   
+}
+section .content #sechr{
+    border:3px solid rgb(56, 90, 100);
+    border-radius: 4px;
+    background-color:rgb(56, 90, 100);
+    width:200px;  
+     
+
+}
+
+section .content h3{
+    margin-top:-20px;
+    
+    
+    
+
+}
+section .content h3 span{
+    font-family: 'Lobster', cursive;
+    color:rgb(255, 115, 92);
+
+    
+}
+
