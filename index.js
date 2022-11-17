@@ -13,3 +13,11 @@ var typed=new Typed(".number", {
     BackSpeed:60,
     loop:true
 })
+var typed=new Typed(".college_campus h6",{
+    strings:["THINK FUTURE : THINK VGI","THINK FUTURE : THINK VGI", "GIVING WINGS TO YOUR DREAMS","THINK FUTURE : THINK VGI",  "GIVING WINGS TO YOUR DREAMS",],
+    typeSpeed:60,
+    BackSpeed:50,
+    loop:true
+    
+
+})
