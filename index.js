@@ -21,3 +21,6 @@ var typed=new Typed(".college_campus h6",{
     
 
 })
+
+
+

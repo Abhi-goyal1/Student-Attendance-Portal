@@ -1,5 +1,5 @@
 *{
-    margin-top: 3px;
+    margin-top: 0px;
     padding: 0%;
     background:rgb(255, 255, 255); 
     box-sizing: border-box;
@@ -36,11 +36,13 @@ button{
 
 i{
     color: rgb(56, 90, 100);
+}
+
+.first a:hover, :active , :visited {
+    color:rgb(255, 115, 92) ;
     
 }
-.first a:hover{
-    color:rgb(255, 115, 92) ;
-}
+
 .first a:{
     color:rgb(255, 115, 92);
 
@@ -52,34 +54,39 @@ i{
     background-color:rgb(255, 115, 92);
     /* opacity: 0.7; */
     margin-top: 13px;
-    border-radius: 6px;
+    border-radius: 7px;
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size:17px;
-    padding: 13px ;
+    padding: 9px ;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 11px;
 }
 #register:hover{
+    transition : 700ms; 
+    transform : translateY(-3px); 
+    
     
 
 }
 #signin{
     border: 2px solid rgb(56, 90, 100) ;
     margin-top: 13px;
-    border-radius: 6px;
+    border-radius: 7px;
     margin-right: 4px;
     font-family: 'Nunito', sans-serif;
     font-size:17px;
-    padding: 11px ;
+    padding: 7px ;
     color: rgb(56, 90, 100);
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 11px;
     
 }
 #signin:hover{
     background-color: rgb(56, 90, 100);
     color: white;
+    transition : 700ms; 
+    transform : translateY(-3px); 
 }
 /* body image */
 
@@ -116,7 +123,10 @@ section .content #sechr{
 
 section .content h3{
     margin-top:-20px;
-    
+    color: rgb(56, 90, 100);
+}
+section .content h2{
+    color: rgb(56, 90, 100);
 }
 section .content h3 span{
     font-family: 'Lobster', cursive;
@@ -128,7 +138,7 @@ section .content h3 span{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    width: 80%;
+    width: 85%;
     margin: auto;
     padding-top:18%;
     color: rgb(56, 90, 100);
@@ -147,25 +157,10 @@ section .content h3 span{
     /* position: relative; */
     overflow: hidden;
 }
-.campus-col img{
-    
-    height: 10%;
-    width:30%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.34);
-    opacity: 1;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    margin:12px;
-    
+.college_campus h2{
+    color: rgb(56, 90, 100);
 }
-.campus-col img:hover{
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-    border-radius: 10px; 
-   
+
 
 #image2{
     margin-left:3%;
@@ -180,5 +175,137 @@ section .content h3 span{
 }
 
 
+/* footer css */
 
+.container{
+	max-width: 1170px;
+	margin:auto;
+    background-color: rgb(56, 90, 100);
     
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    background-color: rgb(56, 90, 100);
+}
+ul{
+	list-style: none;
+    background-color: rgb(56, 90, 100);
+}
+.footer{
+	
+    background-color: rgb(56, 90, 100);   
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   background-color: rgb(56, 90, 100);
+   font-family: 'Nunito', sans-serif;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 700;
+	position: relative;
+    background-color: rgb(56, 90, 100);
+    font-family: 'Nunito', sans-serif;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:rgb(255, 115, 92);    
+    border-radius: 4px;
+	height: 4px;
+	box-sizing: border-box;
+	width: 60px;
+    
+    
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+    background-color: rgb(56, 90, 100);
+    font-family: 'Nunito', sans-serif;
+
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+    background-color: rgb(56, 90, 100);
+    font-family: 'Nunito', sans-serif;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links {
+    background-color:rgb(56, 90, 100);
+    
+}
+.footer-col .social-links a {
+    color:rgb(56, 90, 100) ;
+    margin: 10px;
+    
+}
+.footer-col .social-links i {
+    font-size:40px;
+    color:white;
+    background-color:rgb(56, 90, 100);
+}
+
+.footer-col .social-links i:hover{
+    
+    
+    transition : 300ms; 
+    transform : translateY(-7px); 
+    text-decoration: none;
+	color: aliceblue;
+    
+
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.copyright{
+    font-size:15px;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    color:rgb(56, 90, 100);
+    font-weight: 40px;
+    word-spacing: 6px;
+    letter-spacing:1px;
+    margin-top:30px;
+
+}
+/* .copyright h6{
+    background-color:rgb(56, 90, 100);
+} */
+.copyright span{
+    color:rgb(255, 115, 92);  
+    
+}
+
