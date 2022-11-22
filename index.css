@@ -8,12 +8,17 @@
 #logo{
     max-width:12%;
 }
+.renew {
+    padding: 19px;
+}
 nav a {
     display: flex;
     text-decoration: none;
-    padding: 19px;
+    /* padding: 19px; */
     float: right;
 }
+
+
 button{
     display: flex;
     float: right;
@@ -54,7 +59,7 @@ i{
     background-color:rgb(255, 115, 92);
     /* opacity: 0.7; */
     margin-top: 13px;
-    border-radius: 7px;
+    border-radius: 4px;
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size:17px;
@@ -62,17 +67,15 @@ i{
     font-weight: bold;
     margin-top: 11px;
 }
-#register:hover{
-    transition : 700ms; 
-    transform : translateY(-3px); 
-    
-    
 
+#register:active{
+    transform: scale(0.95);
 }
+
 #signin{
     border: 2px solid rgb(56, 90, 100) ;
     margin-top: 13px;
-    border-radius: 7px;
+    border-radius: 4px;
     margin-right: 4px;
     font-family: 'Nunito', sans-serif;
     font-size:17px;
@@ -80,14 +83,17 @@ i{
     color: rgb(56, 90, 100);
     font-weight: bold;
     margin-top: 11px;
+    background-color: white;
     
 }
 #signin:hover{
     background-color: rgb(56, 90, 100);
-    color: white;
-    transition : 700ms; 
-    transform : translateY(-3px); 
+    color: white; 
 }
+#signin:active{
+    transform: scale(0.95);
+}
+
 /* body image */
 
 section img{
@@ -138,7 +144,7 @@ section .content h3 span{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding-top:18%;
     color: rgb(56, 90, 100);
@@ -176,6 +182,8 @@ section .content h3 span{
 
 
 /* footer css */
+
+
 
 .container{
 	max-width: 1170px;
