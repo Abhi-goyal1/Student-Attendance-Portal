@@ -1,9 +1,10 @@
 *{
     margin-top: 0px;
     padding: 0%;
-    background:rgb(255, 255, 255); 
+    /* background:rgb(255, 255, 255);  */
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 #logo{
     max-width:13%;
@@ -29,6 +30,7 @@ button{
     top: 0;
     z-index: 10;
     box-shadow: 0px 26px 17px -10px rgba(0,0,0,0.27);
+    background-color: white;
     
 }
 .first a{
@@ -296,7 +298,7 @@ ul{
 }
 }
 
-.copyright{
+.copyright1{
     font-size:15px;
     font-family: 'Nunito', sans-serif;
     width: 100%;
@@ -307,13 +309,103 @@ ul{
     word-spacing: 6px;
     letter-spacing:1px;
     margin-top:30px;
+    background-color: white;
 
 }
 /* .copyright h6{
     background-color:rgb(56, 90, 100);
 } */
-.copyright span{
+.copyright1 span{
     color:rgb(255, 115, 92);  
     
 }
 
+
+
+
+
+
+/* our services */
+
+.our-services h2{
+    color: rgb(56, 90, 100);
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -20px;
+    padding: 20px;
+    
+}
+
+.our-services{
+    background-color:#DDDDDD;
+    border-radius:  30px ;
+    border: 1px solid #c2bdbd ;
+   
+}
+.our-services i {
+    font-size: 150px; 
+    margin: 40px;
+    margin-left: 100px;
+    background-color: transparent;
+
+
+    -webkit-animation: mover 0.8s infinite  alternate;
+    animation: mover 0.8s infinite  alternate;
+    
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+
+
+.service-text h3{
+    color: rgb(56, 90, 100);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 10px;  
+    margin-top: -20px;  
+}
+.service-text span{
+    margin: 40px;
+    
+    
+}
+#a{
+    margin-left: -2px;
+}
+#c{
+    margin-left:8%;
+}
+.our-services i:hover{
+    color:rgb(255, 115, 92);  
+    
+    
+} 
+
+
+
+/* teacher */
+
+
+.our-teacher{
+      
+}
+.our-teacher h2{
+      text-align: center;
+      color: rgb(56, 90, 100);
+    font-family: 'Nunito', sans-serif;
+}
+.our-teacher p{
+    color:rgb(255, 115, 92);  
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    
+}

@@ -19,8 +19,12 @@
 
     <!-- Link Pages -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="backtoscroll.css">
    
    <!-- Font Family -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,12 +40,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/86234a9440.js" crossorigin="anonymous"></script>
 
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
 
 
-    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     
-  
+ <!-- teacher section -->
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="teacher.css">
+                                  
     
 </head>
 <body>
@@ -58,6 +69,7 @@
             <a href="admin.html"class="renew">Admin</a>
             <a href="home-page.html"class="renew">Home</a> 
          </nav>
+         <a id="button"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
 
     <!-- body -->
    
@@ -110,9 +122,36 @@
              </div>
            </div>
           </div>
+ <br><br><br>         
+<!-- ================================our services============================ -->
+<div class="our-services">
+  <h2>OUR SERVICES</h2>
+      <div class="service-icon">
+        <i class="fa-solid fa-calendar-days"></i>
+        <i class="fa-solid fa-file-lines" id="ico"></i><i class="fa-solid fa-chart-pie"></i><i class="fa-solid fa-layer-group" id="ico"></i>
+        
+      </div>
+      <div class="service-text">
+        <h3><span>Real Time Attendance</span>
+        <span id="a">Weekly and Monthly Report</span>
+        <span id="b">Graphical Analytics</span>
+        <span id="c">Leave System</span></h3>      
+      </div>
+</div>
+  <br><br>
+<!-- ==============================================our teacher ===============================-->
+  <div class="our-teacher">
+        <h2>MEET  OUR QUALIFIED FACULTY</h2>
+        <p> VGI Faculty members are very good, well-qualified and knowledgeable. <br> Their teaching quality is up to the mark. </p>
+        <div>
+          
+        </div>
 
 
-<br><br><br><br><br>
+
+  </div>
+
+<br>
 
          
 <!-- ===========================================footer=================================== -->
@@ -162,10 +201,11 @@
       </div>
     </div>
   </div>
-  <div class="copyright">
+  <div class="copyright1">
     <h6>Copyright &#169 2022 VGI, All rights reserved  <br> Developed By <a href="">"Hello WORLD" <style>a { text-decoration: none;}</style></a></h6>
   </div>
 </footer>
+
 
 <!-- ========================================End============================================== -->
 
@@ -177,9 +217,23 @@
 <script src="https://cdn.jsdelivr.net/gsap/1.19.1/TweenMax.min.js"></script>
 <script src="index.js"></script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-  AOS.init();
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
 </script>
+<script src=""></script>
 </body>
 </html>

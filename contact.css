@@ -122,6 +122,7 @@
 .contact-col-1{
     flex-basis:content
     margin-bottom:100%;
+    background-color:white;
 }
 .contact-col-1 div {
     display: flex;
