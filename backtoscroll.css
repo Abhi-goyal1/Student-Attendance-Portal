@@ -1,6 +1,7 @@
 #button {
     display: inline-block;
-    background-color: rgb(56, 90, 100);
+    background-color: rgba(127, 191, 214, 0.393);
+    
     width: 60px;
     height: 60px;
     text-align: center;
